@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+*{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family:'Bebas+Neue' sans-serif ;
+ }
+ 
+ .img{
+   margin: auto;
+     height: 500px;
+     width: 500px;
+ }
+ :root{
+--menu-color: rgb(146, 171, 180);
+--white:#fff;
+--yellow: rgb(243, 220, 13);
+ };
+ html{
+   font-size: 62.5%;
+    height: 100vh;
+    
+ }
+  .main_menu .row{ 
+background-color: var(--menu-color);
+
+
+ }
+ nav{
+  background-color: var(--menu-color);
+ }
+.navbar-brand, .nav-link ,a{
+   color:var(--white);
+   font-weight: 600;
+  text-transform: capitalize;
+ }
+ .navbar a:hover{
+color: var(--yellow);
+;
+ }
+ 
+  .main_header .row {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+   margin: auto;
+   height: 500px;
+   
+  
+ }
+
+  
+ .main_header_left h1  {
+   line-height:40px;
+   font-weight: 800;
+   font-size: 50px;
+   text-transform: capitalize;
+   color:var(--yellow);
+  
+ 
+  
+ }
+  
+   .main_header_left p{
+ letter-spacing: 2px;
+ color: var(--menu-color);
+margin-left: 10px;
+font-weight: 500
+};
+
+.main_header_left .btn{
+  line-height: 50px;
+  border-radius: 5px;
+  padding: 10px;
+  
+  
+}
+.main_header_left .btn a{
+ color:  var(--menu-color);
+}
+ 
+.main_header_left .btn a:hover{
+  text-decoration: none;
+  color:var(--white);
+}
+.main_header_left .btn:hover{
+  background-color:var(--yellow);
+   
+ }
+ footer{
+margin-top: 70px;
+ }
+   footer p{
+    color:  var(--menu-color);
+   }
+   .main_header_left .tempform input[type=text]{
+    outline: none;
+    display: block;
+    width: 350px;
+    line-height: 25px;
+    padding:0px 2px ;
+    box-shadow:2px 2px 5px rgb(99, 95, 95) ;
+    border:  none;
+       height: 30px;
+       border-radius: 2px;
+       padding:  5px;
+  }
+    .main_header_left .tempform input[type=submit]{
+     margin-top: 15px;
+     border: 1px solid rgb(88, 84, 84 ,0.1) ;
+     font-weight: 600;
+     
+      
+     }
+     .main_header_left .tempform input[type=submit]:hover{
+       color: var(--white);
+     } 
+      .tempInformation {
+       background-color: var(--menu-color);
+       height: 300px;
+       width: 300px;
+       color: #fff;
+       display: flex;
+   
+       justify-content: start;
+       flex-direction: column;
+       align-items: center;
+       
+     }
+     .date{
+      
+       display: flex;
+       flex-direction: row;
+       justify-content: space-around;
+        line-height: 50px;
+        font-size: 20px;
+        font-weight: 500;
+     }
+    .hideContent {
+visibility: hidden;
+     };
+     #todayTemp{
+       border-color: black;
+       height: 100px;
+       width: 100px;
+       color: rgb(150, 138, 138);
+  
+       
+      
+     }
+      .main_header_right .tempInformation{
+        color:  var(--menu-color);
+        margin-top: 30px;
+        width: 500px;
+       height: 500px;
+       color: #fff;
+      }
+      /* #cityTemp{
+        margin-left: 15px;
+      } */
+     
+     #temp, #cityTemp{
+ 
+      margin-top: 5rem;
+        font-size: 50px;
+        
+      }
+      #cityTemp{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+       
+      }
+      #temp{
+        font-size: 70px;
+       
+       }
+      #weathericon{
+  
+height: 200rem; 
+width:200px
+      }
+      .carousel-inner{
+        margin-top: 5rem;
+      }
+      /* @keyframes font  {
+        0%{
+            font-size: 15px;
+          } 
+         50%{
+            font-size: 20px;
+          }
+          100%{
+            font-size: 15px;
+          }
+        } */
+    #errortext{
+      color: var(--yellow);
+       font-size: 20px;
+       font-weight: bolder;
+       text-align: center;
+       text-shadow: 1px 0px 1px rgb(15, 15, 15);
+       margin-top: 5rem;
+       margin-bottom: 0;
+ 
+}
+ .tempInformation{
+   margin: auto;
+   display: flex;
+   flex-direction: column;
+   background-color:  rgb(238, 243, 245);
+   
+ }
