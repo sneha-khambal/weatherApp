@@ -42,10 +42,10 @@ weatherStatus.innerText =  tempData.weather[0].main;
   if(tempData.weather[0].main == "Clouds"){
    weathericon.innerHTML="<i class='fa fa-cloud' style='color='#fff'; width:50px;height:50px;' ></i>";
   }
-  if(tempData.weather[0].main == "mist"){
+  if(tempData.weather[0].main == "Mist"){
    weathericon.innerHTML="<img src='images/mist.png' style='width:50px;height:50px;background-color:'white'>";
   }
-  if(tempData.weather[0].main == "haze"){
+  if(tempData.weather[0].main == "Haze"){
    weathericon.innerHTML="<img src='images/mist.png' style='width:50px;height:50px;background-color:'white'>";
   }
   if(tempData.weather[0].main == "Smoke"){
