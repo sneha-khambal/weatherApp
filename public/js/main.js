@@ -20,7 +20,7 @@ if(cityVal ===""){
 }
 else{
    try{
-      let url = `http://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=1a9e4db698f7fe4bfe3bbf8f0ae5d2ff`;
+      let url = `https://api.openweathermap.org/data/2.5/weather?q=${cityVal}&units=metric&appid=1a9e4db698f7fe4bfe3bbf8f0ae5d2ff`;
   const fetchedData =await fetch(url);
      const tempData = await fetchedData.json();
    
