@@ -20,26 +20,8 @@ html {
   font-size: 62.5%;
   height: 100vh;
 }
-/* .main_menu .row{ 
-background-color: var(--menu-color);
-
-
- } */
-nav {
-  text-shadow: 1px 0px 1px rgb(15, 15, 15);
-  background-color: var(--menu-color);
-}
-.navbar-brand,
-.nav-link,
-a {
-  color: var(--white);
-  font-weight: 600;
-  text-transform: capitalize;
-}
-
-.navbar a:hover {
-  color: var(--yellow);
-}
+ 
+ 
 .main_menu {
   background-color: var(--menu-color);
 }
@@ -68,12 +50,14 @@ a {
 }
 
 .main_header_left .btn {
-  line-height: 50px;
+  line-height: 30px;
   border-radius: 5px;
   padding: 10px;
 }
 .main_header_left .btn a {
   color: var(--menu-color);
+  font-size: 15px;
+  font-weight:bolder
 }
 
 .main_header_left .btn a:hover {
@@ -175,17 +159,7 @@ footer p {
 .carousel-inner {
   margin-top: 5rem;
 }
-/* @keyframes font  {
-        0%{
-            font-size: 15px;
-          } 
-         50%{
-            font-size: 20px;
-          }
-          100%{
-            font-size: 15px;
-          }
-        } */
+ 
 #errortext {
   color: white;
   font-size: 20px;
@@ -202,31 +176,16 @@ footer p {
   background: linear-gradient(var(--yellow), white);
 }
 
-.resdropDrown {
-  display: none;
-}
-
+ 
+ 
+ 
+ 
 @media screen and (max-width: 600px) {
-  .resdropDrown {
-    text-align: center;
-    margin-top: 20px;
-    margin-left: -6px;
-    display: block;
-  }
-  .navbar {
-    height: 50px;
-  }
-  .resdropDrown ul li {
-    text-shadow: 1px 0px 1px rgb(15, 15, 15);
-    display: inline-block;
-  }
-  .resdropDrown ul li a:hover {
-    text-decoration: none;
-    color: var(--yellow);
-  }
+ 
   .weatherLogo {
     padding: 10px;
     font-size: 30px;
+    height: 20px;
   }
 
   .titlehead h1 {
@@ -250,15 +209,7 @@ footer p {
     margin-top: -3px;
   }
 
-  .navbar-band:hover .dropDrown {
-    visibility: visible;
-    display: inline;
-    margin: auto;
-  }
-  .dropDrown ul {
-    text-align: center;
-  }
-
+ 
   #cityname {
     margin-top: 15px;
     width: 110%;
@@ -301,27 +252,27 @@ footer p {
     margin-left: -25px;
   }
 }
-
+ 
+ 
 nav {
   background-color: var(--menu-color);
   height: 80px;
-  padding: 15px;
+  padding: 10px;
   width: 100%;
-  margin-top: -9rem;
+  margin-top: -12rem;
 }
 label.logo {
   color: #fff;
   font-size: 45px;
-  margin-left: 0, 10px;
-  line-height: 3rem;
-
-  cursor: pointer;
   font-weight: bold;
+  margin-left: -10rem;
 }
 
 nav ul {
   float: right;
   padding: 5px;
+  margin-bottom: 15px;
+ 
 }
 nav ul li {
   display: inline-block;
@@ -331,6 +282,7 @@ nav ul li {
 nav ul li a {
   color: white;
   font-size: 17px;
+  font-weight: bolder;
   text-transform: uppercase;
   margin-right: 10px;
 }
@@ -394,11 +346,15 @@ label.logo:hover {
   }
   nav {
     height: 80px;
-    margin-top: -4rem;
+    margin-top: -7rem;
     padding: 10px;
   }
   nav ul {
     display: none;
+  }
+  label.logo {
+    margin-left: 0;
+    margin-top: -1rem;
   }
 
   .weatherLogo {
